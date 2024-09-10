@@ -59,4 +59,4 @@ Where offline indicates using precomputed features, display indicates saving the
 
 ## Evaluation
 
-Use TrackEval. If the scores are too low, probably you have not check the following issue: https://github.com/dyhBUPT/StrongSORT/issues/74
+Use TrackEval. If the scores are too low, you probably have not checked out the following issue: https://github.com/dyhBUPT/StrongSORT/issues/74
