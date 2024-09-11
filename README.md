@@ -1,5 +1,7 @@
 # Fast-StrongSORT
 
+[![arXiv](https://img.shields.io/badge/arXiv-2409.06617-b31b1b.svg)](https://arxiv.org/abs/2409.06617)
+
 ## Data&Model Preparation
 
 1. Download MOT17, MOT20 and DanceTrack datasets and organize them as follows:
