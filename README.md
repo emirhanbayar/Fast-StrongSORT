@@ -37,7 +37,7 @@ Download the detections and features for DanceTrack, which are extracted using w
 
 ## Installation
 
-It is recommended to use a virtual environment to run the code. The code is tested on Python 3.8.19
+A virtual environment is recommended to run the code. The code is tested on Python 3.8.19
 
 ```shell
 pip install -r requirements.txt
@@ -58,6 +58,14 @@ python strong_sort.py {dataset} {dataset_type} --BoT --ECC --NSA --EMA --MC --wo
 Where offline indicates using precomputed features, display indicates saving the tracking results into the path indicated in opts.py
 
 --ot, --aiou-threshold, --decay_ema are the parameters that are introduced in Fast-StrongSORT, and explained in the paper.
+
+## Example Commands for Best Configuration
+
+```shell
+python strong_sort.py MOT17 val --BoT --ECC --NSA --EMA --MC --woC --offline --display --ot 0.2 --aiou-threshold 0.6 --decay_ema 
+python strong_sort.py MOT20 val --BoT --ECC --NSA --EMA --MC --woC --offline --display --ot 0.2 --aiou-threshold 0.6 --decay_ema 
+python strong_sort.py dancetrack val --BoT --ECC --NSA --EMA --MC --woC --offline --display --ot 0.2 --aiou-threshold 0.6 --decay_ema
+```
 
 ## Evaluation
 
