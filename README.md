@@ -64,7 +64,7 @@ Where offline indicates using precomputed features, display indicates saving the
 
 ```shell
 python strong_sort.py MOT17 val --BoT --ECC --NSA --EMA --MC --woC --offline --display --ot 0.2 --aiou-threshold 0.6 --decay_ema 
-python strong_sort.py MOT20 val --BoT --ECC --NSA --EMA --MC --woC --offline --display --ot 0.2 --aiou-threshold 0.6 --decay_ema 
+python strong_sort.py MOT20 test --BoT --ECC --NSA --EMA --MC --woC --offline --display --ot 0.2 --aiou-threshold 0.6 --decay_ema 
 python strong_sort.py dancetrack val --BoT --ECC --NSA --EMA --MC --woC --offline --display --ot 0.2 --aiou-threshold 0.6 --decay_ema
 ```
 
