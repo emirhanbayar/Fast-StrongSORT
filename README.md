@@ -10,11 +10,11 @@
    ```
    data
    ├── MOT17
-   	├── test
-   	└── train
+      ├── test
+      └── train
    └── MOT20
-   	├── test
-   	└── train
+      ├── test
+      └── train
    └── dancetrack
        ├── test
        └── train
